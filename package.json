@@ -1,6 +1,6 @@
 {
   "name": "pdfforai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert any PDF to AI-ready text, Markdown, or plain text from the terminal",
   "type": "module",
   "main": "./dist/index.js",
