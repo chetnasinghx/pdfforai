@@ -1,0 +1,64 @@
+{
+  "name": "pdfforai",
+  "version": "1.0.0",
+  "description": "Convert any PDF to AI-ready text, Markdown, or plain text from the terminal",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "pdfforai": "bin/pdfforai.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pdf",
+    "markdown",
+    "ai",
+    "text",
+    "ocr",
+    "convert",
+    "cli",
+    "pdf-to-text",
+    "pdf-to-markdown",
+    "chatgpt",
+    "claude",
+    "gemini"
+  ],
+  "author": "Chetna Singh <contact@chetnasingh.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetnasinghx/pdfforai.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.97",
+    "archiver": "^7.0.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "ora": "^8.2.0",
+    "pdfjs-dist": "4.10.38",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/archiver": "^7.0.0",
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
