@@ -5,18 +5,14 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/pdfforai"><img src="https://img.shields.io/npm/v/pdfforai.svg" alt="npm version"></a>
-  <a href="https://www.npmjs.com/package/pdfforai"><img src="https://img.shields.io/npm/dm/pdfforai.svg" alt="npm downloads"></a>
-  <a href="https://github.com/chetnasinghx/pdfforai/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/pdfforai.svg" alt="license"></a>
+  <a href="https://www.npmjs.com/package/pdfforai"><img src="https://img.shields.io/npm/dt/pdfforai.svg" alt="npm downloads"></a>
+  <a href="https://github.com/chetnasinghx/pdfforai/blob/main/LICENSE"><img src="https://img.shields.io/github/license/chetnasinghx/pdfforai.svg" alt="license"></a>
   <a href="https://github.com/chetnasinghx/pdfforai"><img src="https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg" alt="node version"></a>
 </p>
 
 <p align="center">
   <a href="https://star-history.com/#chetnasinghx/pdfforai&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=chetnasinghx/pdfforai&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=chetnasinghx/pdfforai&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=chetnasinghx/pdfforai&type=Date" width="600" />
-    </picture>
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=chetnasinghx/pdfforai&type=Date" width="600" />
   </a>
 </p>
 
